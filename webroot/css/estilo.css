@@ -1,0 +1,100 @@
+/*
+Author: Sonia Anton Llanes
+Created on: 29-septiembre-2020
+Last modification: 29-septiembre-2020
+CSS Index General Segundo Curso del Módulo Desarrollo de Aplicaciones Web
+*/
+
+* { box-sizing: border-box; margin:0px; padding:0px;}
+ul, ol {list-style: none; }
+a{text-decoration: none; color:#000; }
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+h1{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: #BF2411;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+footer{
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    background-color: #BF2411;
+    color: white;
+}
+
+.menu{
+	width: 100%;
+	text-align: center;
+	/*background-color: #BF2411;*/
+}
+.menu li{
+	display: inline-block;
+	width: 15%;
+	border-bottom: 1px solid #BF2411;
+        border-left: 1px solid #BF2411;
+	/*border-radius: 30px;*/
+	padding: 0.5%;
+	background-color: white;
+}
+.menu li:hover{
+    border-bottom: 1px solid #BF2411;
+    border-left: 1px solid #BF2411;
+    background-color: #BF2411;
+    color: white;
+}
+
+.sonia{
+	position: absolute;                     
+	left: 0;
+	width: 60%;
+	padding: 1%;
+}
+img{
+	width: 30%;
+	border: 5px solid #d65665;
+	padding: 1%;
+	margin-right: 1%;
+	float: left;
+}
+article{
+        border-bottom: 2px solid #d65665;
+        margin: 2%;
+        padding: 2%;
+	text-align: center;
+}
+
+.modulo{
+	position: absolute;
+	right: 0;
+	width: 30%;
+	padding: 1%;
+	margin-right:5%;
+}
+.modulo>header{
+	text-align: center;
+	margin: 2%;
+}
+.modulo>nav ul li{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border: 5px solid #BF2411;
+	border-radius: 30px;
+	padding: 1%;
+	background-color: #d65665;
+	text-align: center;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
