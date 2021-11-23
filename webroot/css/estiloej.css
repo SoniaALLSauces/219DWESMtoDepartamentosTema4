@@ -15,6 +15,15 @@ a{text-decoration: none; color:#000; }
 }
 
 
+/* Tamaño y Posicion de los Elementos con Grid */
+
+.footer{
+    width: 98%;
+    margin: 0 1%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
 
 /* Tamaño y posicion dentro del elemto */
 h2 img{
@@ -28,6 +37,15 @@ h2 img{
 table{
     width: 95%;
 }
+.imgtd{height: 4.5vh;}
+.fnav ul li{
+    display: inline-block; 
+    width: 45%;
+}
+.fnav li img{
+    height: 7vh;
+    width: auto;
+}
 
 /* Border, Margin y Padding */
 h2, h3{
@@ -36,11 +54,7 @@ h2, h3{
 h5{
     padding-left: 50px;
 }
-.php{
-    margin: 1% 3%;
-    border: 1px solid #BF2411;
-    padding: 1%;
-}
+
 p{
     margin-left: 2%;
 }
@@ -66,10 +80,16 @@ td{
     border: none;
     padding: 2px 10px;
 }
+.footer{
+    border-top: 2px solid #BF2411;
+}
 
 /* Background */
 .tr:nth-child(2n+1){
     background: #ee9797;
+}
+.footer{
+    background-color: white;
 }
 
 /* Estilo del texto */
@@ -92,6 +112,16 @@ h4{
 }
 .tr>th{
     text-align: left;
+}
+.footer{
+    text-align: center;
+}
+.fnav ul li{
+    vertical-align: middle;
+}
+.ftexto{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 
